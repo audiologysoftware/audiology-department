@@ -1,0 +1,69 @@
+.nav-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-item {
+  margin-bottom: 10px;
+}
+
+.sub-menu {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.sub-menu .nav-item {
+  margin-bottom: 5px;
+}
+
+.bi {
+  margin-right: 5px;
+}
+/* People.css */
+
+/* Overall container */
+.container {
+max-width: 800px;
+margin: 0 auto;
+}
+
+/* Table styling */
+table {
+width: 100%;
+border-collapse: collapse;
+margin-bottom: 20px;
+}
+
+table th {
+
+padding: 50px;
+text-align: left;
+}
+
+table td {
+border: 1px solid #ddd;
+padding: 10px;
+width: 100px;
+}
+
+/* Advisor, External Advisor, Members container */
+.section-container {
+margin-bottom: 80px;
+
+}
+
+/* Faculty container */
+.faculty {
+display: flex;
+align-items: center;
+border: 51px solid #ccc;
+padding: 20px;
+}
+.h4{
+padding-left: 20px;
+}
+
+.titleBold{
+font-weight: bold;
+}
+

@@ -1,0 +1,8 @@
+version: "3.8"
+services: 
+ audiology-clinics: 
+  build: .
+  container_name: audiology  
+  ports: 
+   - "3002:3002"
+  restart: unless-stopped
