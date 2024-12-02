@@ -14,3 +14,12 @@ jobs:
 
     - name: Build Docker image
       run: docker build . -t jssishapplications/audiology:latest
+
+    - name: Save Docker image as tar
+      run: docker save -o audiology.tar jssishapplications/audiology:latest
+
+    - name: Upload Docker image artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: audiology-image
+        path: audiology.tar
