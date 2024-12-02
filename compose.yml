@@ -1,6 +1,6 @@
 version: "3.8"
 services: 
- audiology-clinics: 
+ audiology-department: 
   build: .
   container_name: audiology  
   ports: 
